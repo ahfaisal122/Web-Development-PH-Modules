@@ -1,0 +1,9 @@
+li{
+    color: cadetblue;
+
+}
+
+ul li{
+    color: brown;
+    /* display: inline; means same line e list items gula thakbe shob*/ 
+}

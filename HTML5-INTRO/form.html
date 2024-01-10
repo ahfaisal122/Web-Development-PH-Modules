@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to Bamberg Cake and Coffee Shop</h2>
+    <form action="">
+        <label for="name">Your Name:
+            <input id="name" type="text" placeholder="Your name">
+        </label>
+        
+        <label for="email">Your Email:
+            <input id="email" type="text" placeholder="Your email">
+        </label>
+        
+        <fieldset>
+            <legend>Pick one cheesecake</legend>
+            <label for="blueberry">
+                <input type="radio" name="cake" id="blueberry">
+                Blueberry cheesecake
+            </label>
+
+            <label for="chocolate">
+                <input type="radio" name="cake" id="chocolate">
+                Chocolate cheesecake
+            </label>
+
+            <label for="strawberry">
+                <input type="radio" name="cake" id="strawberry">
+                Strawberry cheesecake
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Select one or more coffees</legend>
+            <label for="americano">
+                <input type="checkbox" name="coffee" id="americano">
+                Americano
+            </label>
+            <label for="espresso">
+                <input type="checkbox" name="coffee" id="espresso">
+                Espresso
+            </label>
+            <label for="capuccino">
+                <input type="checkbox" name="coffee" id="capuccino">
+                Capuccino
+            </label>
+            <label for="latteMachiato">
+                <input type="checkbox" name="coffee" id="latteMachiato">
+                Latte Machiato
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+
+    </form>
+</body>
+</html>

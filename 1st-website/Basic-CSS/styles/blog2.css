@@ -1,0 +1,36 @@
+
+.header{
+    height: 400px;
+    /* background-image: url('ozil4.jpg'); */
+    background-image: url('../images/ozil4.jpg');
+    /* background related onek options ase: https://developer.mozilla.org/en-US/docs/Web/CSS/background */
+}
+
+h3{
+    color: magenta;
+    text-decoration: underline;
+}
+
+p{
+    color:red;
+}
+
+.page-titleClass{
+    font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+span{
+    border: 1px solid brown;
+    height: 200px;
+    width: 100px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.blog{
+    background-color: lightblue;
+    box-shadow: 10px 10px 10px gray;
+
+}
