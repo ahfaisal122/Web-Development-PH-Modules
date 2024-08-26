@@ -83,11 +83,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+
+section{
+    margin-top: 130px; /* the margin for all sections */
+
+}
  
  
 /* about section styles */
 .about{
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -99,7 +104,7 @@ main{
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
  
 .section-description{
@@ -126,11 +131,11 @@ main{
  
  
  
-/* What I Do section */
-.what-i-do{
+/* What I Do section- don't need for margin because its already done in margin */
+/*.what-i-do{
     margin-top: 130px;
    
-}
+} */
  
 .whatido-description{
     color: #757575;
