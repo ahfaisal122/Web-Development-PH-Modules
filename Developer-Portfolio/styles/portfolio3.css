@@ -34,7 +34,7 @@
 nav{
     display: flex;    /* make position in the same line  */
     justify-content: space-between; /* to make space between two side (Mary and portfolio,blog,hire me section) of contents */
-    margin: 50px 200px;  /* to specify the margin space between two side */
+    padding: 50px 200px;  /* to specify padding space between two side */
 }
 .nav-title{
     font-weight: 800;
