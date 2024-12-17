@@ -230,7 +230,9 @@ section{
 .contact{
     display: flex;
     gap: 100px;
-    background: #FFF8F3;
+    background: #ffb682;  /* color is changed for the let's connect background */
+
+
     padding: 130px 200px;
 }
 
